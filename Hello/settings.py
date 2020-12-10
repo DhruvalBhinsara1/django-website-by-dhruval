@@ -18,7 +18,6 @@ from whitenoise import WhiteNoise
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-#this a text
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
@@ -28,7 +27,7 @@ SECRET_KEY = '_uirl#8%yg1^uh%e+6@st*tiawphx_s%6ye$b1^^_j$4iuq$bc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1:8000','dhruval-portfolio.herokuapp.com']
+ALLOWED_HOSTS =['127.0.0.1:8000','dhruval-portfolio.herokuapp.com']
 
 
 # Application definition
@@ -125,7 +124,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-#added manually
+# added manually
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 

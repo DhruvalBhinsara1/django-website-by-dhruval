@@ -1,2 +1,2 @@
-web: gunicorn Hello.wsgi 
-web: python Hello/manage.py runserver 127.0.0.1:8000
+web: gunicorn  Hello.wsgi
+
